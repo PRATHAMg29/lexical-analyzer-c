@@ -15,9 +15,9 @@ int main(int argc, char*argv[])
         return FAILURE;
     }
     printf("\n");
-    printf(ORANGE "TOKEN \t\t TYPE\n" RESET);
-    printf("------------------------\n");
-    lexical_analyzer(fptr); 
+    printf(ORANGE "LINE \t\t TOKEN \t\t TYPE\n" RESET);
+    printf("------------------------------------------\n");
+    lexical_analyzer(fptr);     //call function.
     fclose(fptr);   //close file pointer.
     return 0;
 }
