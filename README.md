@@ -111,7 +111,7 @@ Line 30 : Error : '(' opened but not closed.
 ## How to Compile
 
 ```bash
-gcc *.c -o lexical_analyzer
+gcc lexical.c main.c validation.c main.h
 ```
 
 ---
@@ -119,5 +119,5 @@ gcc *.c -o lexical_analyzer
 ## How to Run
 
 ```bash
-./lexical_analyzer test.txt
+./lexical_analyzer test.c
 ```
